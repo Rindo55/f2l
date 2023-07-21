@@ -14,7 +14,7 @@ class Var(object):
     BOT_TOKEN = "5306499440:AAHpWLxsP6tFAsxZ7vEx4vqTe1HZsxThn7A"
 
     SLEEP_THRESHOLD = "60"
-    WORKERS = "4"
+    WORKERS = 4
     BIN_CHANNEL = -1001920297436
     PORT = 8080
     BIND_ADRESS = '0.0.0.0'
