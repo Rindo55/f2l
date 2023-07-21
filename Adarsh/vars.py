@@ -19,7 +19,8 @@ class Var(object):
     PORT = 8080
     BIND_ADRESS = '0.0.0.0'
     PING_INTERVAL = 1200  # 20 minutes
-    OWNER_ID = 1443454117 
+    sake=1443454117 
+    OWNER_ID = set(int(x) for x in sake.split())  
     NO_PORT = False
     APP_NAME = None
     OWNER_USERNAME = "Pirate_user"
