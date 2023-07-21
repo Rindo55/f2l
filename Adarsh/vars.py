@@ -30,7 +30,7 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = "104.200.18.212/dl"
+    FQDN = "104.200.18.212"
     HAS_SSL=False
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
