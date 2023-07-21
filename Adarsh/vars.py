@@ -12,7 +12,7 @@ class Var(object):
     API_ID = 10247139
     API_HASH = "96b46175824223a33737657ab943fd6a"
     BOT_TOKEN = "5306499440:AAHpWLxsP6tFAsxZ7vEx4vqTe1HZsxThn7A"
-
+    name = "file2linker"
     SLEEP_THRESHOLD = "60"
     WORKERS = 4
     BIN_CHANNEL = -1001920297436
